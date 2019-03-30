@@ -14,7 +14,7 @@ is a detailed description and a guide for usage of both of them.
 
 ![Icon](/logo/icon.svg)
 ![Icon with text](/logo/icon_with_text.svg)
-![Symbolic](/logo/sybmolic.svg)
+![Symbolic](/logo/symbolic.svg)
 
 
 #### Description
@@ -44,103 +44,23 @@ and the circle is not segmented.
 
 **Green**
 
-<table>
-<tbody>
-<tr>
-<td style="padding: 4rem; background: #0de552" rowspan="2"></td>
-<td style="padding: 2rem; background: #23f365"></td>
-<td style="padding: 2rem; background: #45f47d"></td>
-<td style="padding: 2rem; background: #67f695"></td>
-<td style="padding: 2rem; background: #89f8ac"></td>
-</tr>
-<tr>
-<td style="padding: 2rem; background: #0bc346"></td>
-<td style="padding: 2rem; background: #09a13a"></td>
-<td style="padding: 2rem; background: #07802e"></td>
-<td style="padding: 2rem; background: #055e22"></td>
-</tr>
-</tbody>
-</table>
+![Offsets](/palette/green.svg)
 
 **Blue**
 
-<table>
-<tbody>
-<tr>
-<td style="padding: 4rem; background: #00c2f8" rowspan="2"></td>
-<td style="padding: 2rem; background: #1dceff"></td>
-<td style="padding: 2rem; background: #40d5ff"></td>
-<td style="padding: 2rem; background: #64ddff"></td>
-<td style="padding: 2rem; background: #88e5ff"></td>
-</tr>
-<tr>
-<td style="padding: 2rem; background: #00a6d4"></td>
-<td style="padding: 2rem; background: #008ab1"></td>
-<td style="padding: 2rem; background: #006e8d"></td>
-<td style="padding: 2rem; background: #005269"></td>
-</tr>
-</tbody>
-</table>
+![Offsets](/palette/blue.svg)
 
 **Purple**
 
-<table>
-<tbody>
-<tr>
-<td style="padding: 4rem; background: #d332ac" rowspan="2"></td>
-<td style="padding: 2rem; background: #d94fb8"></td>
-<td style="padding: 2rem; background: #e06dc4"></td>
-<td style="padding: 2rem; background: #e68ad0"></td>
-<td style="padding: 2rem; background: #eca8dc"></td>
-</tr>
-<tr>
-<td style="padding: 2rem; background: #b92896"></td>
-<td style="padding: 2rem; background: #9c227e"></td>
-<td style="padding: 2rem; background: #7f1b67"></td>
-<td style="padding: 2rem; background: #61154f"></td>
-</tr>
-</tbody>
-</table>
+![Offsets](/palette/purple.svg)
 
 **Red**
 
-<table>
-<tbody>
-<tr>
-<td style="padding: 4rem; background: #f32848" rowspan="2"></td>
-<td style="padding: 2rem; background: #f54a65"></td>
-<td style="padding: 2rem; background: #f76c82"></td>
-<td style="padding: 2rem; background: #f98d9e"></td>
-<td style="padding: 2rem; background: #fbafbb"></td>
-</tr>
-<tr>
-<td style="padding: 2rem; background: #ea0d30"></td>
-<td style="padding: 2rem; background: #c80b29"></td>
-<td style="padding: 2rem; background: #a70922"></td>
-<td style="padding: 2rem; background: #85071b"></td>
-</tr>
-</tbody>
-</table>
+![Offsets](/palette/red.svg)
 
 **Yellow**
 
-<table>
-<tbody>
-<tr>
-<td style="padding: 4rem; background: #ffa10a" rowspan="2"></td>
-<td style="padding: 2rem; background: #ffaf2e"></td>
-<td style="padding: 2rem; background: #ffbc51"></td>
-<td style="padding: 2rem; background: #ffca75"></td>
-<td style="padding: 2rem; background: #ffd899"></td>
-</tr>
-<tr>
-<td style="padding: 2rem; background: #e58d00"></td>
-<td style="padding: 2rem; background: #c27700"></td>
-<td style="padding: 2rem; background: #9e6100"></td>
-<td style="padding: 2rem; background: #7a4b00"></td>
-</tr>
-</tbody>
-</table>
+![Offsets](/palette/yellow.svg)
 
 ### Font
 
