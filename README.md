@@ -44,7 +44,9 @@ and the circle is not segmented.
 
 **Green**
 
-![Green](/palette/green.svg)
+![Green](/palette/green.svg | width=130)
+
+
 
 **Blue**
 
