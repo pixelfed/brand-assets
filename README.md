@@ -44,23 +44,23 @@ and the circle is not segmented.
 
 **Green**
 
-![Green](/palette/green.png)
+![Green](/palette/green.svg)
 
 **Blue**
 
-![Blue](/palette/blue.png)
+![Blue](/palette/blue.svg)
 
 **Purple**
 
-![Purple](/palette/purple.png)
+![Purple](/palette/purple.svg)
 
 **Red**
 
-![Red](/palette/red.png)
+![Red](/palette/red.svg)
 
 **Yellow**
 
-![Yellow](/palette/yellow.png)
+![Yellow](/palette/yellow.svg)
 
 ### Font
 
