@@ -46,8 +46,6 @@ and the circle is not segmented.
 
 ![Green](/palette/green.svg | width=130)
 
-
-
 **Blue**
 
 ![Blue](/palette/blue.svg)
