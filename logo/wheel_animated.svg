@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="50" height="50">
+  <metadata>
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/MovingImage"/>
+        <dc:title/>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs>
+    <path id="drop_shape"
+          d="M 25,25 C 20.77843,19.646166 13.002814,18.371306 7.4771766,22.36138 1.9515387,26.351453 0.76832601,34.0955 4.8343958,39.658194 l 0.3076235,0.420851 C -1.4888222,31.406438 -1.8150576,19.240724 4.7952638,10.325752 l 0.1176971,-0.1564 C 9.0083499,4.727252 16.349349,3.1924903 22.245111,7.492469 27.815889,11.555425 29.094652,19.5568 24.999264,24.9989 Z"/>
+    <path id="drop_seam"
+          d="M 4.6509281,10.522194 5.0518818,9.9826897 C 8.6356397,5.1605552 15.78973,3.0336301 22.058507,7.313428 27.42354,10.976225 29.394263,19.240316 24.999095,25.00276 24.35604,24.171629 23.693795,23.538046 22.974862,22.941509 24.829588,19.455111 24.872048,15.023616 22.610184,11.454011 19.308744,6.2437786 12.486566,4.7413237 7.3724229,8.0981786 c -1.092672,0.717216 -2.054107,1.542418 -2.803043,2.5353084 z"/>
+    <circle cx="25" cy="25" r="3" id="center_logo_shape"/>
+    <linearGradient id="drop_shape_red_gradient" gradientTransform="rotate(45 0.5 0.5)">
+      <stop stop-color="#ea0d30" offset="0"/>
+      <stop stop-color="#fbafbb" offset="1"/>
+    </linearGradient>
+    <linearGradient id="drop_seam_red_gradient" gradientTransform="rotate(60 0.5 0.5)">
+      <stop stop-color="#ea0d30" offset="0"/>
+      <stop stop-color="#f54a65" offset="1"/>
+    </linearGradient>
+    <linearGradient id="drop_shape_yellow_gradient" gradientTransform="rotate(45 0.5 0.5)">
+      <stop stop-color="#e58d00" offset="0"/>
+      <stop stop-color="#ffd899" offset="1"/>
+    </linearGradient>
+    <linearGradient id="drop_seam_yellow_gradient" gradientTransform="rotate(60 0.5 0.5)">
+      <stop stop-color="#e58d00" offset="0"/>
+      <stop stop-color="#ffaf2e" offset="1"/>
+    </linearGradient>
+    <linearGradient id="drop_shape_green_gradient" gradientTransform="rotate(45 0.5 0.5)">
+      <stop stop-color="#0bc346" offset="0"/>
+      <stop stop-color="#89f8ac" offset="1"/>
+    </linearGradient>
+    <linearGradient id="drop_seam_green_gradient" gradientTransform="rotate(60 0.5 0.5)">
+      <stop stop-color="#0bc346" offset="0"/>
+      <stop stop-color="#23f365" offset="1"/>
+    </linearGradient>
+    <linearGradient id="drop_shape_blue_gradient" gradientTransform="rotate(45 0.5 0.5)">
+      <stop stop-color="#00a6d4" offset="0"/>
+      <stop stop-color="#88e5ff" offset="1"/>
+    </linearGradient>
+    <linearGradient id="drop_seam_blue_gradient" gradientTransform="rotate(60 0.5 0.5)">
+      <stop stop-color="#00a6d4" offset="0"/>
+      <stop stop-color="#1dceff" offset="1"/>
+    </linearGradient>
+    <linearGradient id="drop_shape_purple_gradient" gradientTransform="rotate(45 0.5 0.5)">
+      <stop stop-color="#b92896" offset="0"/>
+      <stop stop-color="#eca8dc" offset="1"/>
+    </linearGradient>
+    <linearGradient id="drop_seam_purple_gradient" gradientTransform="rotate(60 0.5 0.5)">
+      <stop stop-color="#b92896" offset="0"/>
+      <stop stop-color="#d94fb8" offset="1"/>
+    </linearGradient>
+    <filter id="outset_shadow" x="-2" y="-2" width="4" height="4">
+      <feFlood flood-color="#0006"/>
+      <feComposite operator="in" in2="SourceAlpha" in="shadowOffset"/>
+      <feGaussianBlur stdDeviation="1"/>
+      <feOffset result="shadowOffset" in="shadowOffset" dx="1" dy="1.2"/>
+
+      <feComposite operator="out" in2="SourceGraphic" in="shadowOffset"/>
+      <feComposite operator="over" in2="shadowOffset" in="SourceGraphic"/>
+    </filter>
+    <filter id="inset_shadow">
+      <feFlood flood-color="#0006"/>
+      <feComposite operator="out" in2="SourceAlpha" in="shadowOffset"/>
+      <feGaussianBlur stdDeviation="5"/>
+      <feOffset result="shadowOffset" in="shadowOffset" dx="-5" dy="-5"/>
+
+      <feFlood flood-color="#fff3"/>
+      <feComposite operator="out" in2="SourceAlpha" in="lightOffset"/>
+      <feGaussianBlur stdDeviation="2"/>
+      <feOffset result="lightOffset" in="lightOffset" dx="2" dy="2"/>
+      
+      <feComposite operator="atop" in2="SourceGraphic" in="shadowOffset"/>
+      <feComposite operator="atop" in2="result" in="shadowOffset"/>
+      <feComposite operator="atop" in2="result" in="lightOffset"/>
+    </filter>
+  </defs>
+  <g id="wheel_filter" filter="url(#inset_shadow)">
+    <g id="wheel">
+      <g id="drop_red" transform="rotate(0,25,25)">
+        <use id="drop_shape_red" xlink:href="#drop_shape" style="fill:url(#drop_shape_red_gradient)"/>
+        <use id="drop_seam_red" xlink:href="#drop_seam" style="fill:url(#drop_seam_red_gradient)"/>
+      </g>
+      <g id="drop_yellow" transform="rotate(72,25,25)">
+        <use id="drop_shape_yellow" xlink:href="#drop_shape" style="fill:url(#drop_shape_yellow_gradient)"/>
+        <use id="drop_seam_yellow" xlink:href="#drop_seam" style="fill:url(#drop_seam_yellow_gradient)"/>
+      </g>
+      <g id="drop_green" transform="rotate(144,25,25)">
+        <use id="drop_shape_green" xlink:href="#drop_shape" style="fill:url(#drop_shape_green_gradient)"/>
+        <use id="drop_seam_green" xlink:href="#drop_seam" style="fill:url(#drop_seam_green_gradient)"/>
+      </g>
+      <g id="drop_blue" transform="rotate(216,25,25)">
+        <use id="drop_shape_blue" xlink:href="#drop_shape" style="fill:url(#drop_shape_blue_gradient)"/>
+        <use id="drop_seam_blue" xlink:href="#drop_seam" style="fill:url(#drop_seam_blue_gradient)"/>
+      </g>
+      <g id="drop_purple" transform="rotate(288,25,25)">
+        <use id="drop_shape_purple" xlink:href="#drop_shape" style="fill:url(#drop_shape_purple_gradient)"/>
+        <use id="drop_seam_purple" xlink:href="#drop_seam" style="fill:url(#drop_seam_purple_gradient)"/>
+      </g>
+      <animateTransform id="wheel_animation_rotate" attributeType="xml" attributeName="transform" type="rotate" values="0 25 25; 360 25 25" dur="2s" repeatCount="indefinite" />
+    </g>
+  </g>
+  <g id="center_logo">
+    <use id="center_logo_use" xlink:href="#center_logo_shape" style="fill:#ffffff;filter:url(#outset_shadow)"/>
+  </g>
+</svg>
