@@ -80,7 +80,7 @@
       <feComposite operator="atop" in2="result" in="lightOffset"/>
     </filter>
   </defs>
-  <g id="logo" transform="translate(12.5,12.5)">
+  <g id="logo" transform="translate(13,13)">
     <g id="wheel_filter" filter="url(#inset_shadow)">
       <g id="wheel">
         <g id="drop_red" transform="rotate(0,25,25)">
