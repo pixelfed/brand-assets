@@ -66,6 +66,13 @@ and the circle is not segmented.
 
 ![inter](/usage/inter.svg)
 
+### Animated Logo (for loading screens)
+
+![logo_animated](/logo/logo_animated.svg)
+![wheel_animated](/logo/wheel_animated.svg)
+
+
+
 InterUI is used as a font next to logos.
 
 ### Mascot
